@@ -1,0 +1,51 @@
+body{
+    background-color: #322D02;
+    min-height: 100vh;
+    display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.images{
+    flex:0 0 80%;
+	min-height: 70vh;
+	background:url("Eband-0.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    border:2px solid grey;
+    box-shadow: 4px 4px 10px 10px black;
+    position:relative;
+}
+.btn{
+	display: inline-block;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	outline: none;
+	border-color: black;
+	border-radius:20px;
+}
+.prevbtn{
+	background-color:rgba(0,0,0,0.7);
+	padding: 2px 12px;
+	position: absolute;
+	top:50%;
+	left:0%;
+	transform: translate(-60%,-50%);
+
+}
+.prevbtn:hover{
+	background-color: rgba(0,0,0,1.0);
+}
+.nextbtn{
+	background-color:rgba(0,0,0,0.7);
+	padding: 2px 12px;
+	position: absolute;
+	top:50%;
+	right:0%;
+	transform: translate(60%,-50%);
+
+}
+.nextbtn:hover{
+	background-color: rgba(0,0,0,1.0);
+}
